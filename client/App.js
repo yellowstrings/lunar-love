@@ -5,6 +5,14 @@ import ReactDOM from 'react-dom';
 import MoonInfo from './components/Moon.jsx'
 
 const App = () => {
+
+  // creating useStates that i will need in other components
+    // for Moon.jsx
+  const [moonPhase, setMoonPhase] = useState('');
+  const [moonSign, setMoonSign] = useState('');
+  const [moonGraphic, setmoonGraphic] = useState('');
+
+
   return (
     <div>
       meow
