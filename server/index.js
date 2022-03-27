@@ -11,7 +11,7 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-  // console.log('START HERE', res);
+  console.log('START HERE', res);
   res.send('moooooooon');
 });
 
