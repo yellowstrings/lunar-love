@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div>
-      meow
+      <MoonInfo moonPhase={moonPhase} setMoonPhase={setMoonPhase} moonSign={moonSign} setMoonSign={setMoonSign}/>
     </div>
   );
 }

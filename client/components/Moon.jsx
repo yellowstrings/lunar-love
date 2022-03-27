@@ -1,12 +1,14 @@
 import App from '../App.js';
 import React, { useState, useEffect, useContext } from 'react';
 
-const MoonInfo = () => {
+const MoonInfo = (props) => {
   return (
     <div>
-      full moon
+      <button>
+        dropdown to choose phase
+      </button>
     </div>
   )
 };
 
-module.exports = MoonInfo;
+export default MoonInfo;
